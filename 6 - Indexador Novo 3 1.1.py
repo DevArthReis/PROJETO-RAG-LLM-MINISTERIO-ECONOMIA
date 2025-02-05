@@ -16,7 +16,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Definir as variáveis de ambiente
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
 # Função de pré-processamento de perguntas

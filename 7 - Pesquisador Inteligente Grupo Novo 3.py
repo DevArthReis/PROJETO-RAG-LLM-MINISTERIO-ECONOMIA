@@ -12,7 +12,7 @@ from llama_index.core.response_synthesizers import CompactAndRefine
 from llama_index.core.postprocessor.llm_rerank import LLMRerank
 
 # Configuração da chave da API da OpenAI
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
 # Definir eventos personalizados
